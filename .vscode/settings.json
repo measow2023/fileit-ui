@@ -1,0 +1,5 @@
+{
+  "eslint.probe": ["typescript", "typescriptreact", "javascriptreact"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
