@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './layout/Header';
+import TopBar from './layout/TopBar';
 import NotFoundPage from './NotFoundPage';
 import DashboardPage from './features/dashboard/DashboardPage';
 import LogsPage from './features/logs/LogsPage';
@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <div>
-        <Header></Header>
+        <TopBar />
         <Routes>
           <Route path="" element={<LogsPage />} />
           <Route path="/logs" element={<LogsPage />} />

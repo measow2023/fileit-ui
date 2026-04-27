@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 import { StyledNavLink, StyledBrandLink } from '../Styles';
 import { DeepNavy } from '../Colors';
 
-const Header: React.FC = () => (
+const TopBar: React.FC = () => (
   <header
     css={css`
       display: flex;
@@ -24,4 +24,4 @@ const Header: React.FC = () => (
   </header>
 );
 
-export default Header;
+export default TopBar;
