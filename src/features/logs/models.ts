@@ -1,4 +1,4 @@
-export interface LogSummaryData {
+export interface LogSummary {
   id: number;
   application: string;
   invocationId: string;

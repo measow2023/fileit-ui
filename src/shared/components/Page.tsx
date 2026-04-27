@@ -8,20 +8,16 @@ interface PageProps {
 }
 
 const containerStyle = css`
-  margin: 1rem auto;
+  margin: 1.5rem auto;
+  padding: 0 1.5rem;
   width: 100%;
-  max-width: 600px;
-`;
-
-const contentWrapperStyle = css`
-  width: 100%;
-  max-width: 600px;
+  max-width: 1200px;
 `;
 
 const Page: React.FC<PageProps> = ({ title, children }: PageProps) => (
   <div css={containerStyle}>
     {title && <PageTitle>{title}</PageTitle>}
-    <div css={contentWrapperStyle}>{children}</div>
+    <div>{children}</div>
   </div>
 );
 
